@@ -1,0 +1,115 @@
+ .App {
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.PacMan {
+    width: 1px;
+    height: 1px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid red;
+    border-left: 60px solid red;
+    border-bottom: 60px solid red;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  
+}
+
+.target1 {
+  transform: rotate(60deg);
+  z-index: +1;
+  position: absolute;
+  top: 40px; left: 40px;
+}
+
+.TopBanner {
+  height:180px;
+  background-image:linear-gradient(to right, navy,aquamarine,white);
+  border-radius:10px;
+  border-width:1px; 
+  border-color:black;
+  border-style:solid;
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+.PictureBox{
+  height:350px;
+  border-radius:10px;
+  background-color:  #d1e0e0;
+  margin-top:5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-color: black; 
+  border-width:1px
+}
+
+.MainContent {
+  background-color: #e6eeff;
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+
+.MyArticles {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:17px;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold
+}
+
+
+.MyArticles li {
+  margin-bottom: 4%;
+}
+
+.ArticleOne {
+  width: 35%;
+  background-color: #f3e6ff;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding:2%;
+  border-style:solid;
+  border-width:1px;
+  border-color:lightblue
+}
+
+.ArticleTwo {
+  width:53%;
+  background-color:  #f3e6ff;
+  margin-right: 4%;
+  padding:2%;
+  border-style:solid;
+  border-width:1px;
+  border-color:lightblue
+
+}
+
+
+
+.MyFooterBar{
+   height:90px;
+   background-color:#2F4F4F;
+   border-radius:10px;
+   margin-left: 4%;
+   margin-right: 4%;
+   border-style:solid;
+   border-width: 1px;
+   border-color:black;
+   
+}
+
+.ListOfOne {
+  font-weight: bold;
+  margin-top:3%;
+  margin-left:15%;
+  margin-bottom:10%
+}
+

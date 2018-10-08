@@ -1,26 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TopBanner from "./components/TopBanner";
+import PacMan from "./components/PacMan";
+import MainContent from "./components/MainContent";
 
 class App extends Component {
-  render() {
+render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+<div className="App">
+{/* <PacMan className ="target1"/> 
+I could not figure out how to render the 6 pacman images.
+My strategy was to use z indexing and css transform to rotate the pacmans.
+Couldn't quite figure it out... :o( */}
+<TopBanner/>
+<MainContent/>
+      </div> 
     );
   }
 }
